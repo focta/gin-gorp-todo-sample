@@ -1,0 +1,8 @@
+name: Hello
+on: push
+jobs:
+  hello:
+    runs-on: ubutu-latest
+    steps:
+      - run: echo 'Hello world'
+      - uses: actions/checkout@v4
